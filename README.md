@@ -3,16 +3,16 @@
 NOTE:- --> THIS APP IS BUILD FOR SHOP WORKERS/STAFFS , WHO COMES TO CUSTOMER TO BOOK THERE ORDER <--\
 A coffee ordering android app, which send bill by mail.\
 In this app implicit intent is used to send billing info using mail to the customer.\
-Here you can ask order maker to add co whipped cream into it, which cost extra charges (ofc) :D\
+Here you can ask order maker to add  whipped cream into it, which cost extra charges (ofc) :D\
 
 **MAIN SCREEN(scrollable)\
 
-![WhatsApp Image 2021-09-30 at 7 07 08 AM](https://user-images.githubusercontent.com/88109183/135372136-74dd6578-6a63-4eec-b0ff-c7220339df28.jpeg) \
+![WhatsApp Image 2021-09-30 at 7 07 08 AM](https://user-images.githubusercontent.com/88109183/135372136-74dd6578-6a63-4eec-b0ff-c7220339df28.jpeg)\
 
 **INFO PUTTED BY WAITER/STAFF AND PREVIEWING THE INFO(scrollable)\
 
 
-![WhatsApp Image 2021-09-30 at 7 07 08 AM (1)](https://user-images.githubusercontent.com/88109183/135372399-c4410d79-b872-4899-8e53-45894c1bf9f3.jpeg) \
+![WhatsApp Image 2021-09-30 at 7 07 08 AM (1)](https://user-images.githubusercontent.com/88109183/135372399-c4410d79-b872-4899-8e53-45894c1bf9f3.jpeg)\
 
 
  **PREVIEW SCREEN SCROLLED\
