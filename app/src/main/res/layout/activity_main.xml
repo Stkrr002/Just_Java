@@ -1,0 +1,171 @@
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="ExtraText,HardcodedText">
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:inputType="textCapCharacters"
+        android:textSize="25sp"
+        android:layout_margin="15dp"/>
+       "/>
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textSize="25sp"
+        android:layout_marginLeft="15dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TOPPING"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="14dp"
+        android:textColor="@color/black"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:id="@+id/topping"
+        android:layout_height="wrap_content"
+        android:text="whipped cream"
+         android:textAppearance="?android:textAppearanceMedium"
+        android:layout_marginLeft="14dp"
+        />
+
+    <TextView
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:padding="16dp"
+        android:text="quantity"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:backgroundTint="@color/black"
+            android:onClick="dec"
+            android:text="-"
+            android:textSize="25sp"
+            tools:ignore="UsingOnClickInXml" />
+
+
+
+    <TextView
+        android:id="@+id/quantity_text_view"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:padding="16dp"
+
+        android:text="0"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+
+
+        />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:backgroundTint="@color/black"
+            android:onClick="inc"
+            android:text="+"
+            android:textSize="25sp"
+
+            />
+
+   </LinearLayout>
+
+
+    <TextView
+
+    android:layout_height="wrap_content"
+
+    android:layout_marginLeft="100dp"
+    android:layout_width="wrap_content"
+
+    android:padding="16dp"
+    android:text="order summary"
+    android:textAllCaps="true"
+    android:textColor="@color/black"
+    android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/price_text_view"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+
+        android:padding="16dp"
+        android:text="₹1"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginLeft="100dp" 
+
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:backgroundTint="#BDBDBD"
+        android:onClick="SubmitOrder"
+        android:padding="16dp"
+        android:text="PREVIEW"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:backgroundTint="#BDBDBD"
+        android:onClick="reciept"
+        android:padding="16dp"
+        android:text=" SUBMIT "
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="172dp"
+
+        android:scaleType="center"
+
+        android:src="@drawable/cup"
+
+        />
+
+
+</LinearLayout>
+</ScrollView>
+
+
+
